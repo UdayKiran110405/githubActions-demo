@@ -1,0 +1,10 @@
+{
+  "name": "github-actions-node-demo",
+  "version": "1.0.0",
+  "description": "A simple Node.js server for GitHub Actions CI practice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  }
+}
