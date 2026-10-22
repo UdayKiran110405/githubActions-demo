@@ -16,7 +16,10 @@ test("server returns a successful JSON response", async () => {
 
     const body = await response.json();
 
-    assert.strictEqual(body.message, "Hello from my Node.js server!");
+    assert.strictEqual(
+      body.message,
+      "Hello from my Node.js server After the changes ......!",
+    );
     assert.strictEqual(body.status, "success");
   } finally {
     await new Promise((resolve, reject) => {
